@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b546a7e86be874aadea8302388b203, type: 3}
+  m_Name: SampleItemTypeDatabase
+  m_EditorClassIdentifier:
+  Types:
+  - Id: 1001
+    Name: 长剑
+    IconPath: BackpackSystem/Icons/long_sword
+    Description:
+    MaxStackCount: 1
+    Category: 1
+  - Id: 1002
+    Name: 木盾
+    IconPath: BackpackSystem/Icons/wood_shield
+    Description:
+    MaxStackCount: 1
+    Category: 1
+  - Id: 1003
+    Name: 皮甲
+    IconPath: BackpackSystem/Icons/leather_armor
+    Description:
+    MaxStackCount: 1
+    Category: 1
+  - Id: 1004
+    Name: 铁盔
+    IconPath: BackpackSystem/Icons/iron_helmet
+    Description:
+    MaxStackCount: 1
+    Category: 1
+  - Id: 1005
+    Name: 法戒
+    IconPath: BackpackSystem/Icons/magic_ring
+    Description:
+    MaxStackCount: 1
+    Category: 1
+  - Id: 2001
+    Name: 小血瓶
+    IconPath: BackpackSystem/Icons/small_hp_potion
+    Description:
+    MaxStackCount: 99
+    Category: 2
+  - Id: 2002
+    Name: 大血瓶
+    IconPath: BackpackSystem/Icons/big_hp_potion
+    Description:
+    MaxStackCount: 99
+    Category: 2
+  - Id: 2003
+    Name: 蓝瓶
+    IconPath: BackpackSystem/Icons/mp_potion
+    Description:
+    MaxStackCount: 99
+    Category: 2
+  - Id: 2004
+    Name: 解毒剂
+    IconPath: BackpackSystem/Icons/antidote
+    Description:
+    MaxStackCount: 99
+    Category: 2
+  - Id: 2005
+    Name: 回城卷轴
+    IconPath: BackpackSystem/Icons/town_portal
+    Description:
+    MaxStackCount: 99
+    Category: 2
+  - Id: 3001
+    Name: 铁矿
+    IconPath: BackpackSystem/Icons/iron_ore
+    Description:
+    MaxStackCount: 999
+    Category: 3
+  - Id: 3002
+    Name: 木材
+    IconPath: BackpackSystem/Icons/wood_log
+    Description:
+    MaxStackCount: 999
+    Category: 3
+  - Id: 3003
+    Name: 皮革
+    IconPath: BackpackSystem/Icons/leather_strip
+    Description:
+    MaxStackCount: 999
+    Category: 3
+  - Id: 3004
+    Name: 魔法粉尘
+    IconPath: BackpackSystem/Icons/magic_dust
+    Description:
+    MaxStackCount: 999
+    Category: 3
+  - Id: 3005
+    Name: 银锭
+    IconPath: BackpackSystem/Icons/silver_ingot
+    Description:
+    MaxStackCount: 999
+    Category: 3
+  - Id: 4001
+    Name: 剑之碎片
+    IconPath: BackpackSystem/Icons/sword_fragment
+    Description:
+    MaxStackCount: 99
+    Category: 4
+  - Id: 4002
+    Name: 盾之碎片
+    IconPath: BackpackSystem/Icons/shield_fragment
+    Description:
+    MaxStackCount: 99
+    Category: 4
+  - Id: 4003
+    Name: 戒之碎片
+    IconPath: BackpackSystem/Icons/ring_fragment
+    Description:
+    MaxStackCount: 99
+    Category: 4
+  - Id: 4004
+    Name: 盔之碎片
+    IconPath: BackpackSystem/Icons/helmet_fragment
+    Description:
+    MaxStackCount: 99
+    Category: 4
+  - Id: 4005
+    Name: 甲之碎片
+    IconPath: BackpackSystem/Icons/armor_fragment
+    Description:
+    MaxStackCount: 99
+    Category: 4
+  - Id: 5001
+    Name: 小经验丹
+    IconPath: BackpackSystem/Icons/exp_pill_small
+    Description:
+    MaxStackCount: 999
+    Category: 5
+  - Id: 5002
+    Name: 中经验丹
+    IconPath: BackpackSystem/Icons/exp_pill_medium
+    Description:
+    MaxStackCount: 999
+    Category: 5
+  - Id: 5003
+    Name: 大经验丹
+    IconPath: BackpackSystem/Icons/exp_pill_large
+    Description:
+    MaxStackCount: 999
+    Category: 5
+  - Id: 5004
+    Name: 超级经验丹
+    IconPath: BackpackSystem/Icons/exp_pill_super
+    Description:
+    MaxStackCount: 999
+    Category: 5
+  - Id: 5005
+    Name: 传说经验丹
+    IconPath: BackpackSystem/Icons/exp_pill_legendary
+    Description:
+    MaxStackCount: 999
+    Category: 5

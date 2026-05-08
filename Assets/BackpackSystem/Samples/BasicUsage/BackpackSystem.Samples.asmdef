@@ -1,0 +1,6 @@
+{
+    "name": "BackpackSystem.Samples",
+    "rootNamespace": "BackpackSystem.Samples",
+    "references": ["BackpackSystem.Runtime"],
+    "autoReferenced": true
+}
